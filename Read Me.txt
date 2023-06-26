@@ -1,0 +1,12 @@
+find_addresses.py: 
+	Web Scraping on blockchain APIs
+histogram.py:
+	Creates graphs and charts based on address data
+k_means.py:
+	Unsupervised ML using k means on various attributes of crypto wallets
+models.R:
+	GARCH, ARIMA, and EMA models conducted on transaction history
+synthesis.py:
+	Combines data from crypto addresses, models, and k means into csv files
+transaction_filtering.py:
+	Filters the addresses found and outputs the data into csv files.

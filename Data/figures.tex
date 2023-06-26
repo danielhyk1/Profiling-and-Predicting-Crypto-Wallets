@@ -1,0 +1,122 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{table}[]
+
+\caption {Statistics of Address Characteristics} 
+\hskip-2.0cm
+\begin{tabular}{lrrlll}
+             & \multicolumn{1}{l}{Min} & \multicolumn{1}{l}{Max} & Mean          & Median        & Std         \\
+Share Zeroes & 0                       & 0.9997                  & 0.5312143561  & 0.5154884565  & 0.18594976  \\
+Max Value    & 0.0006724762174         & 125999.9373             & 280.8979206   & 3.714851223   & 4384.13938  \\
+Mean Value   & 0.0000005006917028      & 649.8879142             & 2.570768326 & 0.09712002212 & 29.46869298 \\
+Median Value & 0                       & 368.7943474             & 0.3500080184             & 0             & 10.29705216 \\
+Periodicity  & 0                       & 3332.333333                       & 7.339082341   & 1.496674786   & 100.875267  \\
+Max Entries  & 103                     & 10000                   & 1568.525385           & 632           & 2361.678688
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption {Entries per Cluster} 
+\hskip+4.5cm
+\begin{tabular}{lllll}
+
+Cluster       & Entries \\
+Cluster 1 &    860      \\
+Cluster 2 &    319      \\
+Cluster 3 &      2     \\
+Cluster 4 &    112     \\
+Cluster 5 &      1   \\
+Cluster 6 &      1    \\
+Cluster 7 &      5   \\
+
+          &         &          &            &        
+
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption {Mean Squared Errors for EMA} 
+\hskip-2.0cm
+\begin{tabular}{lrrrrr}
+EMA       & \multicolumn{1}{l}{Min MSE} & \multicolumn{1}{l}{Max MSE} & \multicolumn{1}{l}{Mean MSE} & \multicolumn{1}{l}{Median MSE} & \multicolumn{1}{l}{Std MSE} \\
+Cluster 1 & 0.00000001546701856         & 3.351430348                 & 0.07898139089                & 0.01705777394                  & 0.2128139346                \\
+Cluster 2 & 0.00000003083665            & 3.175862082                 & 0.1513914349                 & 0.03922201866                  & 0.3166016682                \\
+Cluster 3 & 3.338230247                 & 4.70393788                  & 4.021084064                  & 4.021084064                    & 0.9657011285                \\
+Cluster 4 & 0.00000001122846926         & 1.732266418                 & 0.1077411704                 & 0.02298218946                  & 0.2051360599                \\
+Cluster 5 & 5.054516158                 & 5.054516158                 & 5.054516158                  & 5.054516158                    & 0                           \\
+Cluster 6 & 0.001075951196              & 0.001075951196              & 0.001075951196               & 0.001075951196                 & 0                           \\
+Cluster 7 & 1.606009484                 & 5.03001529                  & 3.175809932                  & 2.401306922                    & 1.484137768                
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption {Mean Squared Errors for ARIMA} 
+\hskip-2.0cm
+\begin{tabular}{lrrrrr}
+ARIMA     & \multicolumn{1}{l}{Min MSE} & \multicolumn{1}{l}{Max MSE} & \multicolumn{1}{l}{Mean MSE} & \multicolumn{1}{l}{Median MSE} & \multicolumn{1}{l}{Std MSE} \\
+Cluster 1 & 0.000000009911252547        & 6536.04923                  & 25.32052921                  & 0.05640352035                  & 283.3500667                 \\
+Cluster 2 & 0.00000003501401965         & 35577.21895                 & 268.7238753                  & 0.3236982979                   & 2289.971513                 \\
+Cluster 3 & 5917060.601                 & 18171589.88                 & 12044325.24                  & 12044325.24                    & 8665260.752                 \\
+Cluster 4 & 5.00E-09                    & 1.08E+05                    & 1.08E+03                     & 3.70E-01                       & 10254.35635                 \\
+Cluster 5 & 525180.5531                 & 525180.5531                 & 525180.5531                  & 525180.5531                    & 0                           \\
+Cluster 6 & 0.02540801554               & 0.02540801554               & 0.02540801554                & 0.02540801554                  & 0                           \\
+Cluster 7 & 134859.9246                 & 805162.3015                 & 442722.8101                  & 480610.9268                    & 255731.0536                
+\end{tabular}
+\end{table}
+
+
+
+
+\begin{table}[]
+\caption {Mean Squared Errors for GARCH} 
+\hskip-2.0cm
+\begin{tabular}{lrrrrr}
+GARCH     & \multicolumn{1}{l}{Min MSE} & \multicolumn{1}{l}{Max MSE} & \multicolumn{1}{l}{Mean MSE} & \multicolumn{1}{l}{Median MSE} & \multicolumn{1}{l}{Std MSE} \\
+Cluster 1 & 0.00000002707943852         & 3.743274639                 & 0.0902660939                 & 0.01992820098                  & 0.2287955178                \\
+Cluster 2 & 0.00000004022746004         & 3.421788299                 & 0.1882756672                 & 0.05564045206                  & 0.374572186                 \\
+Cluster 3 & 4.034321081                 & 5.560070662                 & 4.797195871                  & 4.797195871                    & 1.078867875                 \\
+Cluster 4 & 0.000000006154046705        & 2.07585741                  & 0.1308162102                 & 0.02769396334                  & 0.2549914046                \\
+Cluster 5 & 4.604261128                 & 4.604261128                 & 4.604261128                  & 4.604261128                    & 0                           \\
+Cluster 6 & 0.00139174803               & 0.00139174803               & 0.00139174803                & 0.00139174803                  & 0                           \\
+Cluster 7 & 1.871373342                 & 6.061765492                 & 3.791599812                  & 2.956803635                    & 1.827176479                
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption {Mean Squared Errors for GJR-GARCH} 
+\hskip-2.0cm
+\begin{tabular}{lrrrrr}
+GJR-GARCH     & \multicolumn{1}{l}{Min MSE} & \multicolumn{1}{l}{Max MSE} & \multicolumn{1}{l}{Mean MSE} & \multicolumn{1}{l}{Median MSE} & \multicolumn{1}{l}{Std MSE} \\
+Cluster 1 & 0.0000153872788             & 3.743274629                 & 0.09391247801                & 0.02140680587                  & 0.2438165691                \\
+Cluster 2 & 0.0000000362363496          & 3.401520722                 & 0.1849967153                 & 0.0582770103                   & 0.3714521117                \\
+Cluster 3 & 4.033035133                 & 5.560076415                 & 4.796555774                  & 4.796555774                    & 1.079781245                 \\
+Cluster 4 & 0.000000006154046873        & 2.074419851                 & 0.1457828143                 & 0.04232333744                  & 0.2638205939                \\
+Cluster 5 & 4.567445479                 & 4.567445479                 & 4.567445479                  & 4.567445479                    & 0                           \\
+Cluster 6 & 0                           & 0                           & 0                            & 0                              & 0                           \\
+Cluster 7 & 1.8699148                   & 6.061646492                 & 3.745354456                  & 2.706459739                    & 1.857266128                
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[]
+\caption {ARIMA p,d,q mode per Cluster} 
+\hskip+4.5cm
+\begin{tabular}{lllll}
+
+Cluster       & p,d,q \\
+Cluster 1 &    0,0,0      \\
+Cluster 2 &    0,0,0      \\
+Cluster 3 &      0,0,0 or 5,1,0     \\
+Cluster 4 &    5,1,0     \\
+Cluster 5 &      2,0,1   \\
+Cluster 6 &      0,0,0    \\
+Cluster 7 &      2,1,1   \\
+
+          &         &          &            &        
+
+\end{tabular}
+\end{table}
+\end{document}
