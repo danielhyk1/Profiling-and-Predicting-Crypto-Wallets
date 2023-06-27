@@ -1,3 +1,9 @@
+Predicting and profiling cryptocurrency wallets (ETH) based on their transactional behaviors.
+
+Predicts volatility of the wallets using GARCH.
+Predicts transactional value using ARIMA and EMA.
+Categorizes using k means clustering.
+
 find_addresses.py: 
 	Web Scraping on blockchain APIs
 histogram.py:
